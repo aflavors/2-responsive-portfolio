@@ -1,7 +1,16 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
-/*Contact icons spacing*/
-i {
+
+i {/*Contact icons spacing*/
     margin: 30px;
+}
+
+a {
+    color: #212529;
+}
+.form-button {
+    background-color: #e9ecef;
+    border: none;
+    color: #212529;
 }
