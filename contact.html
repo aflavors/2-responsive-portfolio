@@ -9,7 +9,9 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <!--FontAwesome Icon Kit-->
     <script src="https://kit.fontawesome.com/ffc9b37c55.js" crossorigin="anonymous"></script>
-    <title>Contact</title>
+    <!--Google Fonts Import-->
+    <style> @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');</style>
+    <title>Akeem Flavors</title>
 </head>
 
 <body>
@@ -40,9 +42,24 @@
                     <i class="fab fa-linkedin fa-3x"></i>
                     <i class="fab fa-instagram-square fa-3x"></i>
                     <i class="fab fa-twitter-square fa-3x"></i>
+                    <i class="fab fa-facebook-square fa-3x"></i>
                 </section>
             </div>
         </div>
+
+        <!--Message Form-->
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">Email address required for a response.</small>
+            </div>
+            <div class="form-group">
+                <label for="comment">Message</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
 
         <!-- Sticky Footer with Copyright Information -->
         <footer class="footer">
