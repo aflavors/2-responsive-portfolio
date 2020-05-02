@@ -15,7 +15,7 @@ This website was created to serve as the foundation for a responsive, personal p
 
 HTML
 - Portfolio: The portfolio items outlined in the grid card do not currently have dedicated webpages. Content is expected to be updated.
-- Contact: Links to social media lead to main website for the respective platforms. I do not yet have an account for every platform.
+- Contact: Links to social media lead to main website for the respective platforms. I do not yet have an account for every platform. Similarly, message form is not intended to function.
 
 CSS
 - The CSS is linked using an external style sheet
