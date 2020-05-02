@@ -1,4 +1,4 @@
-* {
+* {/*Imported font*/
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -6,10 +6,11 @@ i {/*Contact icons spacing*/
     margin: 30px;
 }
 
-a {
+a {/*Link color*/
     color: #212529;
 }
-.form-button {
+
+.form-button { /*Message form button*/
     background-color: #e9ecef;
     border: none;
     color: #212529;
