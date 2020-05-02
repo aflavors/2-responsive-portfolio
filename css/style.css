@@ -15,3 +15,7 @@ a {/*Link color*/
     border: none;
     color: #212529;
 }
+
+.card-backgroundcolor {
+    background-color: #e9ecef;
+}
