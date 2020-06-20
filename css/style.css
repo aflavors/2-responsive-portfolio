@@ -1,5 +1,16 @@
 * {/*Imported font*/
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #244A5D;
+}
+
+.bg-img{
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../assets/images/bg.svg");
+	background-size: 100% fixed;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
 }
 
 i {/*Contact icons spacing*/
@@ -7,7 +18,22 @@ i {/*Contact icons spacing*/
 }
 
 a {/*Link color*/
-    color: #212529;
+    color: #B8995A;
+	font-weight:500;
+	font-size: 18px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.small-link{
+	font-size: 14px;
+	display: block;
+}
+
+.underline {
+  border-bottom: 2px solid #DBDCD5;
 }
 
 .form-button { /*Message form button*/
@@ -18,4 +44,70 @@ a {/*Link color*/
 
 .card-backgroundcolor {
     background-color: #e9ecef;
+}
+
+nav{
+	max-width: 1352px;
+	margin: 20px auto;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.nav-group{
+	display: inline-block;
+	text-align: right;
+	float: right;
+	padding-top: 12px;
+}
+
+.navbar-brand{
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin-left: 36px;
+}
+
+.nav-item{
+	margin-left: 24px;
+}
+
+h1{
+	font-weight: 300;
+	font-size: 48px;
+}
+
+.intro{
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: .2px;
+	line-height: 32px;
+	margin-top: 20px;
+}
+
+.main{
+	max-width: 1196px;
+	margin: 60px auto 420px auto;
+}
+
+.main-content{
+	margin-bottom: 60px;
+}
+
+.card-body{
+	margin: 20px 20px;
+}
+
+.card-text{
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: .18px;
+}
+
+.card{
+	border: none;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.16);
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.16);
 }
