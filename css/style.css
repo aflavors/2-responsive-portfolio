@@ -21,10 +21,12 @@ a {/*Link color*/
     color: #B8995A;
 	font-weight:500;
 	font-size: 18px;
+	transition: color .15s ease-in-out;
 }
 
 a:hover{
-	text-decoration: underline;
+	text-decoration: none;
+	color: #244A5D;
 }
 
 a.small-link{
