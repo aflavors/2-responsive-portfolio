@@ -305,7 +305,6 @@ h2{
 	line-height: 42px;
 }
 
-
 h3{
 	font-weight: 600;
 	font-size: 20px;
@@ -316,4 +315,37 @@ h3{
 	margin-top: 0px;
 	list-style: none;
 	font-size: 16px;
+}
+/* Small devices (phones, tablets, 728px and down) */
+@media only screen and (max-width: 728px) {
+
+	nav{
+		max-width: 100%;
+		margin: 20px 24px 20px 24px;
+		text-align: center;
+	}
+
+	.logo{
+		margin: 20px auto 8px auto;
+	}
+
+	.navbar-brand{
+		display: block;
+		text-align: center;
+		color: #244A5D;
+		padding-top: 10px;
+		margin: 0;
+	}
+
+	.navbar{
+		display: block;
+		text-align: center;
+		float: none;
+	}
+
+	.main{
+		max-width: 100%;
+		margin: 60px 24px 0 24px;
+	}
+
 }
