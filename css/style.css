@@ -91,10 +91,6 @@ h1{
 	margin: 60px auto 420px auto;
 }
 
-.main-content{
-	margin-bottom: 60px;
-}
-
 .card-body{
 	margin: 20px 20px;
 }
@@ -282,4 +278,8 @@ a.workday-scheduler-logo:hover, a.brewery-map-logo:hover, a.weather-dashboard-lo
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.link-spacer{
+	width: 24px;
+	display: inline-block;
 }

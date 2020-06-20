@@ -10,7 +10,7 @@
         <!--FontAwesome Icon Kit-->
         <script src="https://kit.fontawesome.com/ffc9b37c55.js" crossorigin="anonymous"></script>
         <!--Google Fonts Import-->
-        <style> @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');</style>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');</style>
         <title>Akeem Flavors</title>
     </head>
     <body>
@@ -26,38 +26,41 @@
                     <a class="nav-link nav-link-ltr" href="contact.html">Contact</a>
                   </div>
             </nav>
-            <!-- Main Jumbotron Content -->
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                <h1 class="display-4">Contact</h1>
-                <p class="lead text-center">Feel free to send me an email, connect with me on social, or leave a message below.
-                <br>
-                I would love to hear from you.</p>
-                <!--Contact Information Icons-->
-                    <section class="text-center">
-                        <h2>
-                            <a href="mailto:akeemflavors@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
-                            <a href="http://www.linkedin.com" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
-                            <a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-2x"></i></a>
-                            <a href="http://www.twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
-                            <a href="http://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
-                        </h2>
-                    </section>
+            <!-- Main Content -->
+            <section class="main">
+                <div class="main-content">
+                    <div class="row">
+                        <div class="col-lg-5 primary-content">
+                            <h1 class="">Contact</h1>
+                            <p class="intro">Feel free to send me an email, connect with me on social media, or leave a message. I would love to hear from you.</p>
+                            <a href="#" class="text-link">Email</a><span class="link-spacer"> </span>
+                            <a href="#" class="text-link">LinkedIn</a>
+                        </div>
+                        <div class="col-lg-1">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                            <h2 class="">Leave a Message</h2>
+                            <!--Message Form-->
+                            <form>
+                                <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">Email address required for a response.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment">Message</label>
+                                    <textarea style="resize: none;" class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                                <button type="submit" class="primary-button">Send</button>
+                            </form>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!--Message Form-->
-            <form>
-                <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">Email address required for a response.</small>
-                </div>
-                <div class="form-group">
-                    <label for="comment">Message</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary form-button">Send</button>
-            </form>
+            </section>
             <!-- Sticky Footer with Copyright Information -->
             <footer>
                 <small>
