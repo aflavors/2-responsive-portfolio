@@ -176,3 +176,7 @@ h1{
   div.nav-group > div > a:hover:after {
 	opacity: 1;
   }
+  
+  .primary-content {
+	margin-bottom: 60px;
+}
