@@ -1,4 +1,3 @@
-# 2-Responsive-Portfolio
 ![Website Screenshot](assets/images/readme-1.jpg)
 This document provides a high-level overview of how this website is set up.
 
